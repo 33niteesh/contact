@@ -1,0 +1,38 @@
+#profile{
+    width: 540px;
+    height: 270px;
+    position: relative;
+    background-color: rgb(6, 120, 250);
+}
+#imge{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 20px;
+    background-color: rgb(243, 243, 243);
+}
+#names{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 150px;
+    color: aliceblue;
+    height: 20px;
+    width: 50%;
+    font-size: xx-large;
+}
+#phone{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+#num{
+    font-size: large;
+    color: darkgray;
+    margin-left: 7px;
+}
+#back{
+    margin-top: 220px;
+    margin-left: 15px;
+}
