@@ -24,10 +24,11 @@ export default function Input(props){
         setTar(vari);
     }
     return <div id="head">
-        <input onChange={search} id='search' placeholder='Search Contacts'/>
+        <form onSubmit={searchdata}>
+        <input onChange={search} id='search' placeholder='Search Contacts' required/>
         <img onClick={searchdata} src={mag} id="dis">
         </img>
-        
+        </form>
         <div id="inputDisplay"></div>
         </div>
 }
